@@ -18,10 +18,12 @@
 import sys
 import os
 __workdir__ = os.path.dirname(os.path.abspath(__file__))
+__libdir__ = os.path.dirname(__workdir__)
+sys.path.append(__libdir__)
 sys.path.append(__workdir__)
 
 os.system("export LANG=en_US.UTF-8")
-os.system("pip install paho-mqtt pillow requests")
+#os.system("pip install paho-mqtt pillow requests")
 
 import random
 import copy
