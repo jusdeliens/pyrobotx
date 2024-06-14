@@ -1,0 +1,9 @@
+[submodule "pyanalytx"]
+	path = pyanalytx
+	url = https://github.com/jusdeliens/pyanalytx.git
+[submodule "pychromatx"]
+	path = pychromatx
+	url = https://github.com/jusdeliens/pychromatx.git
+[submodule "pymusx"]
+	path = pymusx
+	url = https://github.com/jusdeliens/pymusx.git
