@@ -14,8 +14,12 @@ pip install --no-cache-dir -r requirements.txt
 ```
 4. Add a .env file in the root project directory, containing the following credentials. If you don't have any credentials, feel free [to contact us](https://jusdeliens.com/contact) to join the adventure 🚀
 ```.env
-# The name of your player or your robot ID as str
+# The name of your robot ID as str
 ROBOTID         = ...
+# The name of your player ID as str. Remove this line for using virtual bot and only set ROBOTID
+PLAYERID        = ...
+# 1 if you want to control the bot through the arena (needed in some arena), 0 otherwise
+USEPROXY        = ...
 # The name of the arena to join as str
 ARENA           = ...
 # The broker user name provided by a Jusdeliens administrator as str

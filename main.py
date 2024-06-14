@@ -6,7 +6,7 @@ import env
 
 
 # Use OvaClientMqtt to connect an Ova bot all around the world
-robot:IRobot = OvaClientMqtt(robotId=env.ROBOTID, arena=env.ARENA, username=env.USERNAME, password=env.PASSWORD, server=env.BROKERADDRESS, port=env.BROKERPORT, verbosity=env.VERBOSITY, useProxy=False)
+robot:IRobot = OvaClientMqtt(robotId=env.ROBOTID, clientId=env.PLAYERID, arena=env.ARENA, username=env.USERNAME, password=env.PASSWORD, server=env.BROKERADDRESS, port=env.BROKERPORT, verbosity=env.VERBOSITY, useProxy=env.USEPROXY)
 
 # Uncomment this line above 👇 to control on Ova on a LAN
 #robot:IRobot = OvaClientHttpV2(url="192.168.71.1", verbosity=3)
